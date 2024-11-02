@@ -101,3 +101,9 @@ The dataset includes detailed health records for over 42,000 unique patients, al
 ## Dashboard
 ![Dashboard](https://github.com/user-attachments/assets/c947244e-7e57-4b8f-a10e-ed8c0ec4b412)
 <p align="center">Dashboard displaying user data, statistics, and analytics for tracking health metrics.</p>
+
+---
+## History 
+![image](https://github.com/user-attachments/assets/7fe41269-cf7a-492b-b156-d165b1ef89a6)
+
+<p align="center">Send Alert to the User that their health status has been successfully sent to your primary physician.</p>
