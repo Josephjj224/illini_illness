@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+    <h2>Register</h2>
+    <form method="post" action="/register">
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+            <label for="role">are you ?:</label>
+            <select name="role" id="role">
+                <option value="doctor">Doctor</option>
+                <option value="patient">Patient</option>
+            </select>
+        </div>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>

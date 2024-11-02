@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Patient Entry</title>
+</head>
+<body>
+    <h2>Patient Entry Register</h2>
+    <form method="post" action="/patient__entry">
+        <div>
+            <label for="first_name">First Name:</label>
+            <input type="first_name" id="first_name" name="first_name" required>
+        </div>
+        <div>
+            <label for="last_name">Last Name:</label>
+            <input type="last_name" id="last_name" name="last_name" required>
+        </div>
+        <div>
+            <label for="phone_number">Phone Number:</label>
+            <input type="phone_number" id="phone_number" name="phone_number" required>
+        </div>
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="1" required>
+        </div>        
+        <div>
+            <label>Gender:</label>
+            <div>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+            </div>
+            <div>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+        </div>        
+        <div>
+            <label for="doctor">Select your doctor:</label>
+            <select name="doctor" id="doctor">
+                {% for doc in doctors %}
+                    <option value="{{ doc.docID }}">{{ doc.firstName }} {{ doc.lastName }} - {{ doc.phone }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>

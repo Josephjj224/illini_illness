@@ -1,0 +1,22 @@
+div.progress {
+    height: 2em;
+    margin: 0 0 .8em 0;
+    border-radius: 4px;
+
+    div {
+        opacity: .92;
+    }
+
+    .progress-text {
+        position: absolute;
+        top: .2em;
+        left: .4em;
+        z-index: 5;
+    }
+
+    i.progress-text {
+        left: auto;
+        right: .4em;
+        opacity: .7;
+    }
+}
