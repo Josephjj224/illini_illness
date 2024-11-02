@@ -83,6 +83,8 @@ The dataset includes detailed health records for over 42,000 unique patients, al
 [ILLini_ILLness_database_design.pdf](https://github.com/user-attachments/files/17606068/ILLini_ILLness_database_design.pdf)
 
 ---
+
+**UI Component:**  
 ## Home
 ![Home Page](https://github.com/user-attachments/assets/177577c9-e445-4984-adb4-ad9c709906f1)
 <p align="center">Home page interface displaying the main features and navigation options.</p>
