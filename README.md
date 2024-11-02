@@ -1,7 +1,7 @@
 # Illini Illness
 
 
-**Team016-SQLnewbs:**  
+**SQLnewbs:**  
 Emma Chen, Yi-Chia Chang, Joseph Jeong, Tianyang Liao, Yiyang Xu
 
 ---
@@ -72,6 +72,11 @@ The dataset includes detailed health records for over 42,000 unique patients, al
 - **Database**: MongoDB
 - **Notifications**: Twilio (for SMS), Nodemailer (for email)
 - **Other**: Natural Language Processing (NLP) for chatbot reminders
+
+
+---
+## DataBase Design
+[ILLini_ILLness_database_design.pdf](https://github.com/user-attachments/files/17606068/ILLini_ILLness_database_design.pdf)
 
 ---
 ## Home
