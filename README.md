@@ -8,7 +8,9 @@
 
 ## Registration Page
 ![Registration Page](https://github.com/user-attachments/assets/dc0ff227-77d7-486f-adbf-97498b54d84e)
-<p align="center">User registration page where new users can sign up for an account.</p>
+![Screen Shot 2024-11-02 at 2 36 03 AM](https://github.com/user-attachments/assets/b5c9260f-9d9d-40ac-b995-e7c2ac5bae8b)
+
+<p align="center">User registration page where new users can sign up for an account. </p>
 
 ---
 
