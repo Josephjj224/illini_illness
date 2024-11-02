@@ -75,7 +75,11 @@ The dataset includes detailed health records for over 42,000 unique patients, al
 
 
 ---
-## DataBase Design
+## Database Design
+
+#UML Design
+![Screen Shot 2024-11-02 at 2 54 51 AM](https://github.com/user-attachments/assets/6dca9343-c9ab-4975-be07-a885235c3712)
+
 [ILLini_ILLness_database_design.pdf](https://github.com/user-attachments/files/17606068/ILLini_ILLness_database_design.pdf)
 
 ---
