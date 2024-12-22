@@ -31,7 +31,7 @@ const useAuth = () => {
         setLastName(null);
     };
 
-    // 상태 갱신을 위한 useEffect
+   
     useEffect(() => {
         setUserID(getUserID());
         setUserRole(getUserRole());
